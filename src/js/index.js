@@ -42,6 +42,6 @@ async function getUserData(userName) {
   user.setInfo(userResponse);
   user.setRepositories(userResponsitories);
   user.setEvents(userEvents);
-  console.log(userResponsitories);
+  // console.log(userResponsitories);
   screen.renderUser(user);
 }
