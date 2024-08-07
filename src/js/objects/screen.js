@@ -40,9 +40,9 @@ const screen = {
     user.repositories.forEach(
       (repo) =>
         (repositoriesItens += `<li><a href="${repo.html_url}" target="_blank">${repo.name}</a>
-          <p>Forks: ${repo.forks_count ? repo.forks_count : "não possuir nenhum forks cadrastado👿" }</p>
-          <p>Estrelas: ${repo.stargazers_count ? repo.stargazers_count : "não possuir nenhum estrelas cadrastado👿"}</p>
-          <p>Watchers: ${repo.watchers_count ? repo.watchers_count : "não possuir nenhum watchers cadrastado👿"}</p>
+          <p>Forks: ${repo.forks_count }</p>
+          <p>Estrelas: ${repo.stargazers_count}</p>
+          <p>Watchers: ${repo.watchers_count}</p>
           <p>Linguagem usada: ${repo.language ? repo.language : "não possuir nenhuma linguagem cadrastada👿"}</p></li>`)
     );
 
