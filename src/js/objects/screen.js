@@ -43,7 +43,7 @@ const screen = {
           <p>Forks: ${repo.forks_count ? repo.forks_count : "não possuir nenhum forks cadrastado👿" }</p>
           <p>Estrelas: ${repo.stargazers_count ? repo.stargazers_count : "não possuir nenhum estrelas cadrastado👿"}</p>
           <p>Watchers: ${repo.watchers_count ? repo.watchers_count : "não possuir nenhum watchers cadrastado👿"}</p>
-          <p>Linguagem usada: ${repo.language ? repo.language : "não possuir nenhuma linguagem cadrastado👿"}</p></li>`)
+          <p>Linguagem usada: ${repo.language ? repo.language : "não possuir nenhuma linguagem cadrastada👿"}</p></li>`)
     );
 
     if (user.repositories.length > 0) {
