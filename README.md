@@ -8,7 +8,7 @@
 
 <div style="margin: 1rem;display: flex;gap: 1.5rem;">
     <img src="./src/img/animação-git-hub-mobile.gif" alt="git-hub-pages-gif" height="400px" width="200px"> 
-    <img src="./src/img/animação-git-hub-desktop.gif" alt="git-hub-pages-gif" height="400px" width="650px"> 
+    <img src="./src/img/animação-git-hub-desktop.gif" alt="git-hub-pages-gif" height="400px" width="600px"> 
 </div>
 
 <div align="center">
